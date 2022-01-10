@@ -3,14 +3,7 @@ import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles({
   root: {
-    direction: 'rtl',
     backgroundColor: '#282c34',
-    height: '100vh',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    fontSize: '3rem',
-    color: 'white'
   },
 });
 

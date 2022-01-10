@@ -10,6 +10,7 @@ const useStyles = makeStyles(theme => ({
     justifyContent: 'center',
     alignItems: 'center',
     fontSize: '3rem',
+    fontFamily: 'Secular One, sans-serif',
     color: 'white',
     [theme.breakpoints.down('sm')]: {
       fontSize: '1.3rem',

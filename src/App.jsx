@@ -1,11 +1,21 @@
 import { useState } from 'react';
-import { makeStyles } from '@mui/styles';
+import { makeStyles } from '@material-ui/core';
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
   root: {
     backgroundColor: '#282c34',
+    direction: 'rtl',
+    height: '100vh',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    fontSize: '3rem',
+    color: 'white',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '1.3rem',
+    }
   },
-});
+}));
 
 function App() {
   const classes = useStyles();
